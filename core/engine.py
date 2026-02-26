@@ -1,7 +1,7 @@
 import torch
 
 from adaptation.modules import EntropyCalculator, AcceptanceTracker, KController
-from metrics.trackers import PerformanceTracker, QualityTracker
+from acceptance_tracker.metrics.trackers import PerformanceTracker, QualityTracker
 from verification.verifier import Verifier
 
 
